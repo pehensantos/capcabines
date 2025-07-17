@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+ul#listE,
+ul#listM,
+ul#listT,
+ul#listCo,
+ul#listCa,
+ul#listI {
+  position: absolute;
+  z-index: 2;
+}
+
+#listE li,
+#listM li,
+#listT li,
+#listCo li,
+#listCa li,
+#listI li {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+
+#listE, /* Lado esquerdo */
+#listT,
+#listCa
+{
+  top: 100px;
+  left: 400px;
+}
+
+#listM, /* Lado direito */
+#listCo,
+#listI{
+  top: 100px;
+  left: 1300px;
+}
+
+#wpp{
+
+  float: right;
+  margin-right: 40px;
+  margin-top: 500px;
+}
+
+footer{
+  margin-top: 500px;
+}
+
+
+
+
+.alterar-foto .quadrado{
+  width: 460px;  /* Define a largura do quadrado */ /*400px mobile*/
+  min-height: 200px; /* Define a altura mínima do quadrado */
+  background-color: black; /* Define a cor de fundo do quadrado */
+  margin-left: 0; /*500px no pc*/
+  border-style: solid; /* Necessário para que a borda seja visível */
+  border-width: 5px;
+  border-color: #DA70D6;
+  margin-left: 200px;
+}
